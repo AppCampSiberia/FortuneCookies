@@ -27,9 +27,9 @@ public class FortuneActivity extends AppCompatActivity {
                 Intent intent = new Intent(FortuneActivity.this, MainActivity.class);
                 startActivity(intent);
             }
-        }
 
-        ;
+
+        });
     }
 }
 
