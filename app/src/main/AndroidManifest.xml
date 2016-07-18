@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".FlavorActivity" />
-        <activity android:name=".NameActivity"></activity>
+        <activity android:name=".NameActivity" />
+        <activity android:name=".FortuneActivity"></activity>
     </application>
 
 </manifest>
