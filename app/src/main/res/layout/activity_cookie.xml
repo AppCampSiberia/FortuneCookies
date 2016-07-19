@@ -9,6 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="appcampsiberia.fortunecookies.CookieActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView9"
+        android:src="@drawable/ghbdtn"
+        android:scaleType="matrix" />
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -31,13 +38,6 @@
                 android:textSize="35sp"
                 android:layout_weight="1" />
 
-            <Button
-                android:layout_width="0dp"
-                android:layout_height="80dp"
-                android:id="@+id/buttonNext2"
-                android:layout_weight="1"
-                android:text="Далее" />
-
         </LinearLayout>
 
         <LinearLayout
@@ -59,6 +59,7 @@
                 android:id="@+id/imageView6"
                 android:src="@drawable/oreo"
                 android:layout_weight="1" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -96,7 +97,7 @@
                     android:layout_height="80dp"
                     android:id="@+id/imageView8"
                     android:layout_weight="1"
-                    android:src="@drawable/fortunecookies_2094" />
+                    android:src="@drawable/kekc" />
 
             </LinearLayout>
 
@@ -118,9 +119,9 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="80dp"
-                android:id="@+id/imageView9"
-                android:layout_weight="1"
-                android:src="@drawable/cookiesyum" />
+                android:id="@+id/imageView15"
+                android:src="@drawable/fortunecookie1092374"
+                android:layout_weight="1" />
 
         </LinearLayout>
 

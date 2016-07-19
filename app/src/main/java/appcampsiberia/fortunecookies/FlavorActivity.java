@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class FlavorActivity extends AppCompatActivity {
 
-    Button buttonNext;
+    Button buttonNext3;
 
 
     @Override
@@ -17,8 +17,8 @@ public class FlavorActivity extends AppCompatActivity {
         setContentView(R.layout.activity_flavor);
 
 
-        buttonNext = (Button) findViewById(R.id.buttonNext);
-        buttonNext.setOnClickListener(new View.OnClickListener() {
+        buttonNext3 = (Button) findViewById(R.id.buttonNext3);
+        buttonNext3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(FlavorActivity.this, CookieActivity.class);
