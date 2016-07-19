@@ -142,7 +142,7 @@
                 android:id="@+id/imageView14"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
-                android:src="@drawable/Биг_Мак" />
+                android:src="@drawable/bigmac" />
         </LinearLayout>
 
     </LinearLayout>
