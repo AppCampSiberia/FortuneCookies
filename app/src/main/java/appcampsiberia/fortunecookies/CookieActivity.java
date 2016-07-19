@@ -5,27 +5,73 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class CookieActivity extends AppCompatActivity {
 
-    Button buttonNext2;
-
+    ImageView imageViewcookie1;
+    ImageView imageViewcookie2;
+    ImageView imageViewcookie3;
+    ImageView imageViewcookie4;
+    ImageView imageViewcookie5;
+    ImageView imageViewcookie6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cookie);
 
-        buttonNext2 = (Button) findViewById(R.id.buttonNext2);
-        buttonNext2.setOnClickListener(new View.OnClickListener() {
+        imageViewcookie1 = (ImageView) findViewById(R.id.cookie1);
+        imageViewcookie1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
                 startActivity(intent);
 
+
             }
 
+        });
+        imageViewcookie2 = (ImageView) findViewById(R.id.cookie2);
+        imageViewcookie2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
+                startActivity(intent);
+            }
+        });
+        imageViewcookie3 = (ImageView) findViewById(R.id.cookie3);
+        imageViewcookie3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
+                startActivity(intent);
+            }
+        });
+        imageViewcookie4 = (ImageView) findViewById(R.id.cookie4);
+        imageViewcookie4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
+                startActivity(intent);
+            }
+        });
+        imageViewcookie5 = (ImageView) findViewById(R.id.cookie5);
+        imageViewcookie5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
+                startActivity(intent);
+            }
+        });
+        imageViewcookie6 = (ImageView) findViewById(R.id.cookie6);
+        imageViewcookie6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
+                startActivity(intent);
+            }
         });
     }
 }
