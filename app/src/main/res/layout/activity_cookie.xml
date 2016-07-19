@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:id="@+id/imageView9"
         android:src="@drawable/ghbdtn"
-        android:scaleType="matrix" />
+        android:scaleType="centerCrop" />
 
     <LinearLayout
         android:orientation="vertical"
