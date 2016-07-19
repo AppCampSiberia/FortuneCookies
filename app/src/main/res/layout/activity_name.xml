@@ -31,38 +31,20 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="97dp"
-                android:text="Мужской"
-                android:id="@+id/radioButton5"
-                android:textSize="35sp" />
-        </LinearLayout>
-
-        <RadioButton
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Женский"
-            android:id="@+id/radioButton6"
-            android:checked="false"
-            android:textSize="35sp" />
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:weightSum="1">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="96dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="Твое имя?"
                 android:id="@+id/textView4"
                 android:textIsSelectable="false"
                 android:textSize="40sp"
-                android:layout_weight="0.77" />
+                android:layout_weight="0.77"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="50dp" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -74,6 +56,56 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView4" />
+
         </LinearLayout>
+
     </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:textSize="50sp"
+            android:text="Далее"
+            android:textColor="#c72ec2"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_marginTop="270dp"
+        android:textSize="45sp"
+        android:text="Твоё имя"
+        android:gravity="center|center_horizontal"
+        android:textColor="#8199f6" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Женский"
+        android:id="@+id/radioButton6"
+        android:checked="false"
+        android:textSize="35sp"
+        android:layout_gravity="left"
+        android:layout_marginTop="130dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Мужской"
+        android:id="@+id/radioButton5"
+        android:textSize="35sp"
+        android:layout_gravity="left"
+        android:layout_marginTop="70dp"
+        android:checked="false" />
+
 </RelativeLayout>
