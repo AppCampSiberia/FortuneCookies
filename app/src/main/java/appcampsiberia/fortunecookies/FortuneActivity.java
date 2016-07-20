@@ -1,6 +1,7 @@
 package appcampsiberia.fortunecookies;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,7 @@ public class FortuneActivity extends AppCompatActivity {
 
     Button buttonMenu;
     TextView textView;
+    MediaPlayer mp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -136,6 +138,14 @@ Random rand= new Random();
         else if(a==30) {
             textView.setText("Не отчаивайся,все будет хорошо! ");
         }
+
+        new Thread() {
+            public void run() {
+                mp = MediaPlayer.create(FortuneActivity.this, R.raw.hrust);
+                mp.start();
+            }
+        }.start();
+
 
     }
 }
