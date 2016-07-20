@@ -67,12 +67,75 @@ Random rand= new Random();
         else if(a==9) {
             textView.setText("Именно сегодня ты должна выйти из своей зоны комфорта ");
         }
+        else if(a==10) {
+            textView.setText("Черная полоса закончилась,можешь отдыхать и расслабляться. ");
+        }
+        else if(a==11) {
+            textView.setText("Ты же знаешь, что все пройдет. ");
+        }
+        else if(a==12) {
+            textView.setText("Ты сделаешь все, что в твоих силах. ");
+        }
+        else if(a==13) {
+            textView.setText("Завтра будет необычный день, в какой-то мере даже нужный. ");
+        }
+        else if(a==14) {
+            textView.setText(" ");
+        }
+        else if(a==15) {
+            textView.setText(" ");
+        }
+        else if(a==16) {
+            textView.setText(" ");
+        }
+        else if(a==17) {
+            textView.setText(" ");
+        }
+
+        else if(a==18) {
+            textView.setText(" ");
+        }
+        else if(a==19) {
+            textView.setText(" ");
+        }
+
+        else if(a==20) {
+            textView.setText(" ");
+        }
+        else if(a==21) {
+            textView.setText(" ");
+        }
+        else if(a==22) {
+            textView.setText(" ");
+        }
+
+        else if(a==23) {
+            textView.setText(" ");
+        }
+
+        else if(a==24) {
+            textView.setText(" ");
+        }
+        else if(a==25) {
+            textView.setText(" ");
+        }
+        else if(a==26) {
+            textView.setText(" ");
+        }
+        else if(a==27) {
+            textView.setText(" ");
+        }
 
 
-
-
-
-
+        else if(a==28) {
+            textView.setText(" ");
+        }
+        else if(a==29) {
+            textView.setText(" ");
+        }
+        else if(a==30) {
+            textView.setText(" ");
+        }
 
     }
 }
