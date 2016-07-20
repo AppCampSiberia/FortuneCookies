@@ -5,6 +5,12 @@
     android:layout_height="match_parent"
     tools:context="appcampsiberia.fortunecookies.NameActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView8"
+        android:src="#f6d6f9" />
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -113,5 +119,12 @@
         android:gravity="center|center_horizontal"
         android:textColor="#8199f6"
         android:hint="Твоё имя" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
 
 </RelativeLayout>
