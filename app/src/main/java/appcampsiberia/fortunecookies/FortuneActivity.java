@@ -31,7 +31,7 @@ Random rand= new Random();
         });
         textView=  (TextView) findViewById(R.id.textViewFortune);
         int a;
-        a=rand.nextInt(10);
+        a=rand.nextInt(31);
         if(a==0){
             textView.setText("Вы потеряете душу");
         }else if(a==1) {
