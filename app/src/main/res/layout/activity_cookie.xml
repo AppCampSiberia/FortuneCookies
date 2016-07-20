@@ -94,7 +94,7 @@
                     android:layout_height="80dp"
                     android:id="@+id/cookie4"
                     android:layout_weight="1"
-                    android:src="@drawable/kekc" />
+                    android:src="@drawable/echen4" />
 
             </LinearLayout>
 
