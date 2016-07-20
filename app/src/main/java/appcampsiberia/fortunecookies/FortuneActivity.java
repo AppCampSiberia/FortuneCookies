@@ -33,108 +33,108 @@ Random rand= new Random();
         int a;
         a=rand.nextInt(10);
         if(a==0){
-            textView.setText("вы потеряете душу");
+            textView.setText("Вы потеряете душу");
         }else if(a==1) {
-            textView.setText("ты крутая, а другие никто");
+            textView.setText("Ты крутая, а другие никто");
         }
         else if(a==2) {
-            textView.setText("Получишь 5! (У себя вмыслях");
+            textView.setText("Получишь 5 (во всех смыслах)! ");
         }
         else if(a==3) {
-            textView.setText("Сегодня стоит держаться подальше от твоих одноклассников ");
+            textView.setText("Сегодня стоит держаться подальше от твоих одноклассников. ");
         }
         else if(a==4) {
-            textView.setText("Сегодня день будет такой же сладкий, как эта жвачка");
+            textView.setText("Сегодня день будет такой же сладкий, как эта жвачка.");
         }
 
         else if(a==5) {
-            textView.setText("Если ты сегодня не умрешь на перестрелке кокаина, значит, ты молодец)");
+            textView.setText("Если ты сегодня не умрешь на перестрелке кокаина, значит, ты молодец(писал Андрей).");
         }
 
 
         else if(a==6) {
-            textView.setText("Ты молодец! Не обращай внимание на другие разражающие факторы");
+            textView.setText("Ты молодец! Не обращай внимание на другие раздражающие факторы.");
         }
 
         else if(a==7) {
-            textView.setText("В твоей жизни будут грандиозные изменения, но они не повлияют на твою красоту,на твой стиль и на твой внутренний мир");
+            textView.setText("В твоей жизни будут грандиозные изменения, но они не повлияют на твою красоту,на твой стиль и на твой внутренний мир.");
         }
 
         else if(a==8) {
-            textView.setText("Сегодня тебя ждут сюрпризы и новые открытия, но немногие из них будут приятными ");
+            textView.setText("Сегодня тебя ждут сюрпризы и новые открытия, но немногие из них будут приятными. ");
         }
 
         else if(a==9) {
-            textView.setText("Именно сегодня ты должна выйти из своей зоны комфорта ");
+            textView.setText("Именно сегодня ты должна выйти из зоны комфорта ");
         }
         else if(a==10) {
             textView.setText("Черная полоса закончилась,можешь отдыхать и расслабляться. ");
         }
         else if(a==11) {
-            textView.setText("Ты же знаешь, что все пройдет. ");
+            textView.setText("Знай,что все пройдет. ");
         }
         else if(a==12) {
             textView.setText("Ты сделаешь все, что в твоих силах. ");
         }
         else if(a==13) {
-            textView.setText("Завтра будет необычный день, в какой-то мере даже нужный. ");
+            textView.setText("Сегодня ты должен/должна совершить сумасшедший поступок. ");
         }
         else if(a==14) {
-            textView.setText(" ");
+            textView.setText("Скоро начнется\"черная полоса\" в твоей жизни. ");
         }
         else if(a==15) {
-            textView.setText(" ");
+            textView.setText("Многие люди отвернутся от тебя сегодня, а некоторые и вовсе предадут. ");
         }
         else if(a==16) {
-            textView.setText(" ");
+            textView.setText("Сегодня от тебя отвернется много людей,не пугайся этим переменам. ");
         }
         else if(a==17) {
-            textView.setText(" ");
+            textView.setText("Остерегайся людей в масках. ");
         }
 
         else if(a==18) {
-            textView.setText(" ");
+            textView.setText("Кто ищет,тот всегда найдет.");
         }
         else if(a==19) {
-            textView.setText(" ");
+            textView.setText("Стоит пробовать-наверняка получится. ");
         }
 
         else if(a==20) {
-            textView.setText(" ");
+            textView.setText("Слушай свое сердце. ");
         }
         else if(a==21) {
-            textView.setText(" ");
+            textView.setText("Любите себя,радуйся жизни. ");
         }
         else if(a==22) {
-            textView.setText(" ");
+            textView.setText("Сегодня тебе стоит остаться дома. ");
         }
 
         else if(a==23) {
-            textView.setText(" ");
+            textView.setText("Помни-семья всегда поддержит и поможет. ");
         }
 
         else if(a==24) {
-            textView.setText(" ");
+            textView.setText("Не будьте эгоистом-все возвращается бумерангом. ");
         }
         else if(a==25) {
-            textView.setText(" ");
+            textView.setText("Иди к своей цели.");
         }
         else if(a==26) {
-            textView.setText(" ");
+            textView.setText("Надо радоваться,не надо напрягаться. ");
         }
         else if(a==27) {
-            textView.setText(" ");
+            textView.setText("Делай то,что любишь.");
         }
 
 
         else if(a==28) {
-            textView.setText(" ");
+            textView.setText("Не подливай масла в огонь.");
         }
         else if(a==29) {
-            textView.setText(" ");
+            textView.setText("Живи так,будто живешь в последний раз.");
         }
         else if(a==30) {
-            textView.setText(" ");
+            textView.setText("Не отчаивайся,все будет хорошо! ");
         }
 
     }
