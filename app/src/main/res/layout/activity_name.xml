@@ -108,6 +108,13 @@
             android:layout_gravity="left"
             android:layout_marginTop="30dp"
             android:checked="false" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
     </RadioGroup>
 
     <EditText
@@ -119,12 +126,5 @@
         android:gravity="center|center_horizontal"
         android:textColor="#8199f6"
         android:hint="Твоё имя" />
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </LinearLayout>
 
 </RelativeLayout>
