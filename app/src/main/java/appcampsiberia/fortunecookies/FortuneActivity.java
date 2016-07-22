@@ -15,12 +15,14 @@ public class FortuneActivity extends AppCompatActivity {
     Button buttonMenu;
     TextView textView;
     MediaPlayer mp;
+    String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fortune);
 Random rand= new Random();
+        name = getIntent().getStringExtra("pechen");
 
         buttonMenu = (Button) findViewById(R.id.buttonMenu);
 
@@ -28,6 +30,7 @@ Random rand= new Random();
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(FortuneActivity.this, MainActivity.class);
+                intent.putExtra("pechen", name);
                 startActivity(intent);
             }
         });
@@ -35,9 +38,9 @@ Random rand= new Random();
         int a;
         a=rand.nextInt(31);
         if(a==0){
-            textView.setText("Вы потеряете душу");
-        }else if(a==1) {
-            textView.setText("Ты крутая, а другие никто");
+            textView.setText("ИМЯ, вы потеряете душу".replace("ИМЯ", name));
+        }else if(a==1) o{
+            textView.setText("ИМЯ, ты крутая, а другие никто".replace("ИМЯ", name));
         }
         else if(a==2) {
             textView.setText("Получишь 5 (во всех смыслах)! ");
@@ -55,28 +58,28 @@ Random rand= new Random();
 
 
         else if(a==6) {
-            textView.setText("Ты молодец! Не обращай внимание на другие раздражающие факторы.");
+            textView.setText(" ИМЯ, ты молодец! Не обращай внимание на другие раздражающие факторы.".replace("ИМЯ", name));
         }
 
         else if(a==7) {
-            textView.setText("В твоей жизни будут грандиозные изменения, но они не повлияют на твою красоту,на твой стиль и на твой внутренний мир.");
+            textView.setText(" В твоей жизни будут грандиозные изменения, но они не повлияют на твою красоту,на твой стиль и на твой внутренний мир.");
         }
 
         else if(a==8) {
-            textView.setText("Сегодня тебя ждут сюрпризы и новые открытия, но немногие из них будут приятными. ");
+            textView.setText(" Сегодня тебя ждут сюрпризы и новые открытия, но немногие из них будут приятными. ");
         }
 
         else if(a==9) {
-            textView.setText("Именно сегодня ты должна выйти из зоны комфорта ");
+            textView.setText(" Именно сегодня ты должна выйти из зоны комфорта ");
         }
         else if(a==10) {
-            textView.setText("Черная полоса закончилась,можешь отдыхать и расслабляться. ");
+            textView.setText(" Черная полоса закончилась,можешь отдыхать и расслабляться. ");
         }
         else if(a==11) {
-            textView.setText("Знай,что все пройдет. ");
+            textView.setText("Знай, что все пройдет. ");
         }
         else if(a==12) {
-            textView.setText("Ты сделаешь все, что в твоих силах. ");
+            textView.setText(" ИМЯ,  сделаешь все, что в твоих силах. ".replace("ИМЯ", name));
         }
         else if(a==13) {
             textView.setText("Сегодня ты должен/должна совершить сумасшедший поступок. ");
@@ -105,14 +108,14 @@ Random rand= new Random();
             textView.setText("Слушай свое сердце. ");
         }
         else if(a==21) {
-            textView.setText("Любите себя,радуйся жизни. ");
+            textView.setText("Люби себя,радуйся жизни. ");
         }
         else if(a==22) {
-            textView.setText("Сегодня тебе стоит остаться дома. ");
+            textView.setText("Сегодня тебе лучше остаться дома. ");
         }
 
         else if(a==23) {
-            textView.setText("Помни-семья всегда поддержит и поможет. ");
+            textView.setText("Помни - семья всегда поддержит и поможет. ");
         }
 
         else if(a==24) {
@@ -128,15 +131,14 @@ Random rand= new Random();
             textView.setText("Делай то,что любишь.");
         }
 
-
         else if(a==28) {
             textView.setText("Не подливай масла в огонь.");
         }
         else if(a==29) {
-            textView.setText("Живи так,будто живешь в последний раз.");
+            textView.setText("Живи так, будто живешь последний .");
         }
         else if(a==30) {
-            textView.setText("Не отчаивайся,все будет хорошо! ");
+            textView.setText("ИМЯ, не отчаивайся,все будет хорошо! ".replace("ИМЯ", name));
         }
 
         new Thread() {

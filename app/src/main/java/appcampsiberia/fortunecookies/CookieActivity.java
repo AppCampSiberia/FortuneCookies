@@ -16,17 +16,20 @@ public class CookieActivity extends AppCompatActivity {
     ImageView imageViewcookie4;
     ImageView imageViewcookie5;
     ImageView imageViewcookie6;
+    String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cookie);
+        name = getIntent().getStringExtra("pechen");
 
         imageViewcookie1 = (ImageView) findViewById(R.id.cookie1);
         imageViewcookie1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
+                intent.putExtra("pechen", name);
                 startActivity(intent);
 
 
@@ -38,6 +41,7 @@ public class CookieActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
+                intent.putExtra("pechen", name);
                 startActivity(intent);
             }
         });
@@ -46,6 +50,7 @@ public class CookieActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
+                intent.putExtra("pechen", name);
                 startActivity(intent);
             }
         });
@@ -54,6 +59,7 @@ public class CookieActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
+                intent.putExtra("pechen", name);
                 startActivity(intent);
             }
         });
@@ -62,6 +68,7 @@ public class CookieActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
+                intent.putExtra("pechen", name);
                 startActivity(intent);
             }
         });
@@ -70,6 +77,7 @@ public class CookieActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
+                intent.putExtra("pechen", name);
                 startActivity(intent);
             }
         });
