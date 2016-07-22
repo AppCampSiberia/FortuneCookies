@@ -39,7 +39,7 @@ Random rand= new Random();
         a=rand.nextInt(31);
         if(a==0){
             textView.setText("ИМЯ, вы потеряете душу".replace("ИМЯ", name));
-        }else if(a==1) o{
+        }else if(a==1) {
             textView.setText("ИМЯ, ты крутая, а другие никто".replace("ИМЯ", name));
         }
         else if(a==2) {
