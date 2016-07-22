@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/imageView8"
-        android:src="@drawable/photo" />
+        android:src="@drawable/rhbc"
+        android:scaleType="centerCrop" />
 
     <LinearLayout
         android:orientation="vertical"
