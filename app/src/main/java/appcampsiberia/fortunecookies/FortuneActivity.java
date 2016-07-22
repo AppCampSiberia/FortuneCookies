@@ -140,6 +140,27 @@ Random rand= new Random();
         else if(a==30) {
             textView.setText("ИМЯ, не отчаивайся,все будет хорошо! ".replace("ИМЯ", name));
         }
+        else if(a==31) {
+            textView.setText("Никогда не забывайте подруг, особенн, если они должны вам деньги");
+        }
+        else if(a==32) {
+            textView.setText("Сегодня тебя жде удача!Но... в следующей печеньке)");
+        }
+        else if(a==33) {
+            textView.setText("Через час ты снова проголодаешься.Печеньем удачи не наешься.");
+        }
+        else if(a==34) {
+            textView.setText("Ты увидишь ответ на свой вопрос на дне 10-ой выпитой тобой рюмки лимонада");
+        }
+        else if(a==35) {
+            textView.setText("Не хочешь сладкого, пей сухое.");
+        }
+        else if(a==36) {
+            textView.setText("Да вы вообще думаете о последствиях?");
+        }
+        else if(a==37) {
+            textView.setText("Сделайте это сегодня, а то сегодня это будет незаконно.");
+        }
 
         new Thread() {
             public void run() {

@@ -44,10 +44,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Это приложение создали:CrisAks,Евочка,Дух хауса.В целях помощи людям на правильную дорогу и просто прикольнуться :D.Здесь вы поймете  и направитесь на правильную дорогу."
+                android:text="Это приложение создали:CrisAks(Аксман Кристина), Ева Магакелян, Миша Тарский.В целях помощи людям, поставить их на правильную дорогу.
+А также показать их будующее.(И просто прикольнуться )"
                 android:id="@+id/textView8"
-                android:textSize="20sp"
-                android:textColor="#21f9b1" />
+                android:textColor="#21f9b1"
+                android:textSize="25sp" />
 
         </LinearLayout>
 
