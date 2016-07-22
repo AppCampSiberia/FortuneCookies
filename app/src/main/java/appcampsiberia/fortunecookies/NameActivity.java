@@ -20,7 +20,6 @@ public class NameActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(NameActivity.this, FlavorActivity.class);
-                intent.putExtra()
                 startActivity(intent);
             }
         });

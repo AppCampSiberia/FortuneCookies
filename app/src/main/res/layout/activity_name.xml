@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/imageView8"
-        android:src="#f6d6f9" />
+        android:src="@drawable/photo" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -28,7 +28,8 @@
                 android:layout_height="wrap_content"
                 android:text="Выбери свой пол"
                 android:id="@+id/textView3"
-                android:textSize="40sp" />
+                android:textSize="40sp"
+                android:textColor="#f3afef" />
         </LinearLayout>
 
         <LinearLayout
@@ -97,7 +98,8 @@
             android:checked="false"
             android:textSize="35sp"
             android:layout_gravity="left"
-            android:layout_marginTop="80dp" />
+            android:layout_marginTop="80dp"
+            android:textColor="#f77a7a" />
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -124,7 +126,7 @@
         android:layout_marginTop="270dp"
         android:textSize="45sp"
         android:gravity="center|center_horizontal"
-        android:textColor="#8199f6"
+        android:textColor="#2750f0"
         android:hint="Твоё имя" />
 
 </RelativeLayout>
