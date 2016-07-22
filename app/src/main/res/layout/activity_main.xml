@@ -118,12 +118,13 @@
             android:textSize="30sp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="прошлые предсказания"
+            android:text="About"
             android:id="@+id/button2"
             android:layout_gravity="center_horizontal"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textSize="20dp" />
 
     </LinearLayout>
 
