@@ -17,15 +17,14 @@ public class FortuneActivity extends AppCompatActivity {
     TextView textView;
     MediaPlayer mp;
     String name;
-    RadioGroup group2;
-    int pol;
+    //int pol;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fortune);
         Random rand= new Random();
         name = getIntent().getStringExtra("pechen");
-        pol = getIntent().getIntExtra("pol", -666);
+        //pol = getIntent().getIntExtra("pol", -666);
 
         buttonMenu = (Button) findViewById(R.id.buttonMenu);
         buttonMenu.setOnClickListener(new View.OnClickListener() {
@@ -33,7 +32,9 @@ public class FortuneActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(FortuneActivity.this, MainActivity.class);
                 intent.putExtra("pechen", name);
-                intent.putExtra("Pol", pol);
+                //intent.putExtra("Pol", pol);
+                //1доделать влияние выбора пола на предсказание
+                //2сделать влияние выбора вкуса на предсказание
                 startActivity(intent);
             }
         });

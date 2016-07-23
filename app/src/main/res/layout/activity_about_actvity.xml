@@ -56,12 +56,12 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="80dp"
             android:layout_marginTop="10dp">
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="100dp"
+                android:layout_height="80dp"
                 android:id="@+id/imageView11"
                 android:src="@drawable/cookie" />
 
@@ -83,11 +83,10 @@
                 android:layout_height="match_parent"
                 android:text="Version 1.0"
                 android:id="@+id/textView9"
-                android:layout_gravity="top|right"
-                android:gravity="top|right"
-                android:textStyle="bold"
+                android:gravity="right"
                 android:textSize="30dp"
-                android:textColor="#4489b4" />
+                android:textStyle="bold"
+                android:textColor="#3a699f" />
         </LinearLayout>
 
     </LinearLayout>
