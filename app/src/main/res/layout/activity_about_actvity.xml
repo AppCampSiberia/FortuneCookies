@@ -18,77 +18,104 @@
         android:src="@drawable/priroda"
         android:scaleType="centerCrop" />
 
-    <LinearLayout
-        android:orientation="vertical"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
 
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="100dp">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/imageView10"
-                android:src="@drawable/logo" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Это приложение создали:CrisAks(Аксман Кристина), Ева Магакелян, Миша Тарский.В целях помощи людям, поставить их на правильную дорогу.
-А также показать их будующее.(И просто прикольнуться )"
-                android:id="@+id/textView8"
-                android:textColor="#21f9b1"
-                android:textSize="25sp"
-                android:layout_marginLeft="15dp" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginTop="10dp">
-
-            <ImageView
-                android:layout_width="150dp"
-                android:layout_height="80dp"
-                android:id="@+id/imageView11"
-                android:src="@drawable/cookie" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:id="@+id/imageView15"
-                android:src="@drawable/drujbaspech" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Version 1.0"
-                android:id="@+id/textView9"
-                android:gravity="right"
-                android:textSize="30dp"
-                android:textStyle="bold"
-                android:textColor="#3a699f" />
-        </LinearLayout>
+                android:layout_height="100dp">
 
-    </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView10"
+                    android:src="@drawable/logo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Это приложение создали: CrisAks (Аксман Кристина), Ева Магакелян, Миша Тарский. В целях помощи людям, поставить их на правильную дорогу.
+    А также показать их будущее. (И просто прикольнуться.)"
+                    android:id="@+id/textView8"
+                    android:textColor="#21f9b1"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/imageView11"
+                    android:src="@drawable/cookie" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/imageView15"
+                    android:src="@drawable/drujbaspech" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Version 1.0"
+                    android:id="@+id/textView9"
+                    android:gravity="right"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#3a699f" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:background="#80ffffff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Это приложение создано школьниками во время AppCamp 2016, http://vk.com/appcamp/.\n\nИнструктор команды: Андрей Таранцов\n\nМы благодарим компании:\n\nAzoft за подарки участникам, лекции и экскурсию;\n\nEastBanc Technologies за помещение для занятий, лекции и экскурсию;\n\nSoftLab-NSK и Новосибирский Государственный Университет за предоставленную технику и помощь в организации;\n\nXored Software за подарки участникам и экскурсию."
+                    android:id="@+id/appCampFooter"
+                    android:autoLink="web"
+                    android:textColor="#074915" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
