@@ -17,12 +17,14 @@ public class CookieActivity extends AppCompatActivity {
     ImageView imageViewcookie5;
     ImageView imageViewcookie6;
     String name;
+    int pol;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cookie);
         name = getIntent().getStringExtra("pechen");
+        pol = getIntent().getIntExtra("pol", -666);
 
         imageViewcookie1 = (ImageView) findViewById(R.id.cookie1);
         imageViewcookie1.setOnClickListener(new View.OnClickListener() {
@@ -30,6 +32,7 @@ public class CookieActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
                 intent.putExtra("pechen", name);
+                intent.putExtra("Pol", pol);
                 startActivity(intent);
 
 
@@ -42,6 +45,7 @@ public class CookieActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
                 intent.putExtra("pechen", name);
+                intent.putExtra("Pol", pol);
                 startActivity(intent);
             }
         });
@@ -51,6 +55,7 @@ public class CookieActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
                 intent.putExtra("pechen", name);
+                intent.putExtra("Pol", pol);
                 startActivity(intent);
             }
         });
@@ -60,6 +65,7 @@ public class CookieActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
                 intent.putExtra("pechen", name);
+                intent.putExtra("Pol", pol);
                 startActivity(intent);
             }
         });
@@ -69,6 +75,7 @@ public class CookieActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
                 intent.putExtra("pechen", name);
+                intent.putExtra("Pol", pol);
                 startActivity(intent);
             }
         });
@@ -78,6 +85,7 @@ public class CookieActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(CookieActivity.this, FortuneActivity.class);
                 intent.putExtra("pechen", name);
+                intent.putExtra("Pol", pol);
                 startActivity(intent);
             }
         });
