@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import java.util.Random;
@@ -16,21 +17,24 @@ public class FortuneActivity extends AppCompatActivity {
     TextView textView;
     MediaPlayer mp;
     String name;
-
+    RadioGroup group2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fortune);
-Random rand= new Random();
+        Random rand= new Random();
         name = getIntent().getStringExtra("pechen");
 
         buttonMenu = (Button) findViewById(R.id.buttonMenu);
+        group2 = (RadioGroup) findViewById(R.id.group2);
+        group2.getCheckedRadioButtonId();
 
         buttonMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(FortuneActivity.this, MainActivity.class);
                 intent.putExtra("pechen", name);
+                intent.putExtra("Pol", group2.getCheckedRadioButtonId());
                 startActivity(intent);
             }
         });
