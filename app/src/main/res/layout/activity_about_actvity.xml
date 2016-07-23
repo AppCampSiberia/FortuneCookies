@@ -56,7 +56,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
             android:layout_marginTop="10dp">
 
             <ImageView
@@ -71,6 +71,23 @@
                 android:id="@+id/imageView15"
                 android:src="@drawable/drujbaspech" />
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Version 1.0"
+                android:id="@+id/textView9"
+                android:layout_gravity="top|right"
+                android:gravity="top|right"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#4489b4" />
         </LinearLayout>
 
     </LinearLayout>
